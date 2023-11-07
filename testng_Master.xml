@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <suite-files>
+<!--        <suite-file path="./Suite_testng1.xml" />-->
+<!--        <suite-file path="./Suite_testng2.xml" />-->
+<!--        <suite-file path="./Data_Entry_CRUD.xml"></suite-file>-->
+        <suite-file path="./Permit_Testing_Suite.xml"></suite-file>
+    </suite-files>
+</suite>

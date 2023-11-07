@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite_1">
+    <listeners>
+        <listener class-name="Listeners.TestNg_Listeners_simple"/>
+    </listeners>
+    <test name="Chrome_test">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="DemoTest.testall">
+                <methods>
+                    <include name="Add_site_Happy_Senario"/>
+                    <include name="Add_site_Bad_Senario"/>
+                    <include name="Add_Gate_Happy_Senario"/>
+                    <include name="Add_Gate_Bad_Senario"/>
+                    <include name="Visiting_approval_happy_Senario"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="Edge_test">-->
+<!--        <parameter name="browser" value="Edge"/>-->
+<!--        <classes>-->
+<!--            <class name="DemoTest.testall">-->
+<!--                <methods>-->
+<!--                    <include name="Add_site_Happy_Senario"/>-->
+<!--                    <include name="Add_site_Bad_Senario"/>-->
+<!--                    <include name="Add_Gate_Happy_Senario"/>-->
+<!--                    <include name="Add_Gate_Bad_Senario"/>-->
+<!--                    <include name="Visiting_approval_happy_Senario"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox_test">-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="DemoTest.testall">-->
+<!--                <methods>-->
+<!--                    <include name="Add_site_Happy_Senario"/>-->
+<!--                    <include name="Add_site_Bad_Senario"/>-->
+<!--                    <include name="Add_Gate_Happy_Senario"/>-->
+<!--                    <include name="Add_Gate_Bad_Senario"/>-->
+<!--                    <include name="Visiting_approval_happy_Senario"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+

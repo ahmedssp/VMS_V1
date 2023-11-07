@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite_2">
+    <listeners>
+        <listener class-name="Listeners.TestNg_Listeners_simple"/>
+    </listeners>
+    <test name="Chrome_test">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Buildings_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Roles_C_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.contractsTyps_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.department_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Floors_CRUD"/>-->
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Gates_CRUD"/>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.IDTyps_CRUD"/>-->
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Location_CRUD"/>
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Messages_CRUD"/>
+            <class name="Testing_Package.DataEntryFunctionality_CURD.MVR_CRUD"/>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Positions_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.question_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Reasons_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.visitsTyps_CRUD"/>-->
+        </classes>
+    </test>
+    <test name="Firefox_test">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Buildings_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Roles_C_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.contractsTyps_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.department_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Floors_CRUD"/>-->
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Gates_CRUD"/>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.IDTyps_CRUD"/>-->
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Location_CRUD"/>
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Messages_CRUD"/>
+            <class name="Testing_Package.DataEntryFunctionality_CURD.MVR_CRUD"/>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Positions_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.question_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Reasons_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.visitsTyps_CRUD"/>-->
+        </classes>
+    </test>
+    <test name="Edge_test">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Buildings_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Roles_C_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.contractsTyps_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.department_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Floors_CRUD"/>-->
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Gates_CRUD"/>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.IDTyps_CRUD"/>-->
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Location_CRUD"/>
+            <class name="Testing_Package.DataEntryFunctionality_CURD.Messages_CRUD"/>
+            <class name="Testing_Package.DataEntryFunctionality_CURD.MVR_CRUD"/>
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Positions_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.question_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.Reasons_CRUD"/>-->
+<!--            <class name="Testing_Package.DataEntryFunctionality_CURD.visitsTyps_CRUD"/>-->
+        </classes>
+    </test>
+</suite>
+
